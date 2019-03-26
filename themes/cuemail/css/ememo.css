@@ -848,7 +848,7 @@
     max-width:240px !important;
   }
 	td.newsletter-name {
-    width:60%;
+    width:80%;
     padding:40px 60px 20px 10px;
     vertical-align: middle;
   }
@@ -856,9 +856,11 @@
     color:#ffffff;
   }
   td.newsletter-logo {
-    width:40%;
+    width:20%;
     padding:40px 10px 20px;
     vertical-align: middle;
+    font-size: 12px;
+    text-align: right;
   }
   img#logo {
 	 float:right;
@@ -884,13 +886,10 @@
     padding:10px;
     text-align: right;
   }
-  td.web-link a {
-		font-size: 11px;
+  td.web-link {
+		font-size: 12px;
     color:#cccccc !important;
 	}
-  td.web-link a:hover {
-    color:#ffffff !important;
-  }
 
 	.title td h1 {
 		color:#ffffff;
