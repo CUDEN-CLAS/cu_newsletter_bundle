@@ -24,13 +24,13 @@ td.web-link { color: #ffffff; }
 
 .title td h1 { color: #ffffff; }
 
-td.email-top { padding: 0 0 20px; }
+td.email-top { padding: 0 0 0px; }
 
 /* Article List */
 .article-list { background-color: #fff; }
 
 /* Articles */
-.content-top { margin-top: -20px; position: relative; }
+.content-top { position: relative; }
 
 .content-top td.newsletter-sections { padding-top: 10px; background-color: #FFFFFF; }
 
