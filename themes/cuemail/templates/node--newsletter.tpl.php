@@ -38,7 +38,7 @@
                             </td>
                           <?php endif; ?>
                           <td class="newsletter-logo">
-                            <?php print l('View on website', 'node/' . $node->nid, array('absolute' => TRUE)); ?>
+                            <?php print l('View on Website', 'node/' . $node->nid, array('attributes' => array('class' => array('websitelink')), 'absolute' => TRUE)); ?>
                           </td>
                         </tr>
                       </table>

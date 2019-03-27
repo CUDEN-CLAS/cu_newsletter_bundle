@@ -838,7 +838,7 @@
     width: 100%;
   }
   td.email-top {
-    padding:0 0 0px;
+    padding:0 0 10px;
   }
   td.newsletter-logo-single {
     padding:20px 10px 10px;
@@ -849,7 +849,7 @@
   }
 	td.newsletter-name {
     width:80%;
-    padding:40px 60px 20px 10px;
+    padding:20px 60px 20px 10px;
     vertical-align: middle;
   }
   .title td.newsletter-name h1 {
@@ -857,10 +857,22 @@
   }
   td.newsletter-logo {
     width:20%;
-    padding:40px 10px 20px;
+    padding:20px 10px 20px;
     vertical-align: middle;
     font-size: 12px;
     text-align: right;
+  }
+  td.newsletter-logo a.websitelink { 
+    color: #cccccc !important;
+  }
+  td.newsletter-logo a.websitelink:link,
+  td.newsletter-logo a.websitelink:visited,
+  td.newsletter-logo a.websitelink:active { 
+    color: #cccccc !important;
+  }
+
+  td.newsletter-logo a.websitelink:hover { 
+    color: #ffffff !important; 
   }
   img#logo {
 	 float:right;
@@ -879,7 +891,7 @@
   td.issue-date {
     width:50%;
     padding:10px;
-    color:#cccccc;
+    color:#cfb87c;
   }
   td.web-link {
     width:50%;
@@ -968,7 +980,7 @@
   div.tags a:link,
   div.tags a:visited {
     background-color:#e7e7e7 !important;
-    color:#656565 !important;
+    color:#000000 !important;
     padding:4px;
     margin:0 5px 5px 0;
     font-size:10px;
