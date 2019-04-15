@@ -13,7 +13,7 @@ body, table.body { background-color: #FFFFFF; }
 
 .issue { background-color: #ffffff; }
 
-td.issue-date { color: #757575; }
+td.issue-date { color: #cfb87c; }
 
 td.newsletter-logo a { color: #757575; }
 td.newsletter-logo a:link, td.newsletter-logo a:visited, td.newsletter-logo a:active { color: #757575 !important; }
