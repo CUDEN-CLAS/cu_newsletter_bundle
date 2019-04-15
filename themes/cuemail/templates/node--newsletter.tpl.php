@@ -30,7 +30,7 @@
                         <tr>
                           <?php if (!empty($newsletter_logo_url)): ?>
                             <td class="newsletter-name">
-                              <h1><img src="<?php print $newsletter_logo_url; ?>" alt="<?php print $newsletter_name; ?>" width="<?php print $newsletter_logo_width; ?>" height="<?php print $newsletter_logo_height; ?>" /></h1>
+                              <h1><img src="<?php print $newsletter_logo_url; ?>" alt="<?php print $newsletter_name; ?> Logo" width="<?php print $newsletter_logo_width; ?>" height="<?php print $newsletter_logo_height; ?>" /></h1>
                             </td>
                           <?php else: ?>
                             <td class="newsletter-name">
